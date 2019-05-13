@@ -17,7 +17,7 @@ The set of all sentences and labels constitutes the training data, and the model
 Once the model has been trained, it can generate text letter by letter based on a small amount of starting text. The nature of the text it generates will, of course, depend on what you trained it on.
 
 
-## Architecture (to do)
+## Architecture
 
 RNN with 2 LSTM layers with dropout. Output words are sampled from a softmax distribution.
 
